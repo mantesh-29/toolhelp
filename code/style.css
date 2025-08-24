@@ -19,18 +19,33 @@
     background-repeat: no-repeat;
     background-size: cover;
     height:80px;
+ 
 
   }
     header h1{
-text-align: center;
-align-content: center;  
-text-transform: uppercase; 
- }
+      margin:0px;
+      text-align: center;
+      align-content: center;  
+      text-transform: uppercase; 
+      padding-top:2px;
+      font-size: 40px;
+    }
+ 
 
     .logo img{
       height:40px;
       width:40px;
-      float: left;
+      position: fixed;
+      left: 20px;
+      top:15px;
+    }
+
+    .nitjava{
+      position: fixed;
+      right:20px;
+      top:15px;
+      height:40px;
+      width:40px;
     }
     main{
       padding-top: 70px;
