@@ -8,18 +8,32 @@
       background-attachment: fixed;
       background-size: cover;;
     }
-    header{
-      text-align:center;
-      align-items: center;
-      margin:1%;
-      padding:2%;
-      text-transform: uppercase;
-    }
-    header a{
-      float:left;
-      text-decoration: none;
-      padding-top:10px;
 
+
+    header{
+      position:fixed;
+    background-image: url("../file/bg1.png");
+    right:0;
+    left:0;
+    padding:10px 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:80px;
+
+  }
+    header h1{
+text-align: center;
+align-content: center;  
+text-transform: uppercase; 
+ }
+
+    .logo img{
+      height:40px;
+      width:40px;
+      float: left;
+    }
+    main{
+      padding-top: 70px;
     }
     .images{
       text-transform: uppercase;
